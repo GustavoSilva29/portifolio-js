@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Gustavo Ap da Silva</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="assets/img/novafotogu.png.JPG" alt="Foto de Perfil" class="photo" id="foto">
+
+            <h1 class="title">
+                Olá, <br>eu sou Gustavo Ap da Silva
+            </h1>
+
+            <div class="information">
+                <p class="job" id="profile.job">Proprietário na GSMS Transportes</p>
+                <p class="location" id="profile.location">Bauru - SP</p>
+                <p class="phone">
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">14 991111111</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@mail.com" id="profile.email">gustavo_silva_29@hotmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <img src="data/imgs/html.png" alt="" srcset="" width="80">
+                        <img src="data/imgs/css.png" alt="" srcset="" width="80">
+                        <img src="data/imgs/js.png" alt="" srcset="" width="90">
+                        
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Liderança</li>
+                            <li>Adaptabilidade</li>
+                            <li>Proatividade</li>
+                            <li>Proatividade</li>
+                            <li>Empatia</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Portugues - Nativo</li>
+                    <li>Ingles - Intermediário</li>
+                    <li>Espanhol - Basico</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+               
+            </button>
+
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                    <h3><a href="https://github.com/GustavoSilva29">Github</a> <link rel="stylesheet" href="https://github.com/GustavoSilva29"></h3>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+                    <h5>Proprietário - GSMS Transportes</h5>
+                    <h5>Técnico em eletrônica I - Diebold Nixdorf</h5>
+                    <h5>Técnico de Microinformatica ll - Connectcom</h5>
+
+                    <h5><a href="https://www.linkedin.com/in/gustavoapdasilva/">Perfil do Linkein</a></h5>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
+    </main>
+
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
